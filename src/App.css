@@ -1,1 +1,24 @@
 /* add your styles here */
+
+.body{
+    text-align: center;
+}
+
+.maindiv{
+    margin-top: 50px;
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,.3fr);
+    gap: 10px;
+
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

@@ -27,4 +27,22 @@ export default class AppClass extends Component{
   }
 
   // code here
+  render(){
+    let imgData = this.imageData();
+
+    return(
+      <div className='body'>
+            <h1>Gallery</h1>
+        <div className='maindiv'>
+  
+    {imgData.map((obj)=>{
+      return(
+        <img src={obj.img}/>
+      )
+    })}
+    </div>
+    </div>
+      
+    )
+  }
 }
